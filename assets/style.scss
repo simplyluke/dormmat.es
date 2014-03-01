@@ -4,10 +4,14 @@ $main-blue: #0CA5B0;
 $coffee: #4E3F30;
 $off-white: #F8F4E4;
 
-html, body {height: 100%; max-width: 100%; overflow-x: hidden;}
+html, body {
+	height: 100%; 
+	width: 100%; 
+	overflow-x: hidden; 
+	text-align: center;
+}
 
 .call {
-	text-align: center;
 	font-size: 1em;
 	background: url(../images/chairs.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -15,14 +19,8 @@ html, body {height: 100%; max-width: 100%; overflow-x: hidden;}
   	-o-background-size: cover;
 	background-size: cover;
 	height: 100%;
+	min-height: 450px;
 	position: relative;
-
-	h1 {
-		font-size: 8em;
-		font-weight: lighter;
-		color: $main-blue;
-	}
-
 
 
 	.love {
@@ -53,22 +51,55 @@ html, body {height: 100%; max-width: 100%; overflow-x: hidden;}
 		text-align: center;
 	}
 
+	h1 {
+		font-size: 8em;
+		font-weight: lighter;
+		color: $main-blue;
+	}
+	.logo {
+		display: block;
+		background: url(../images/dormmates-d.png);
+		width: 200px;
+	}
 
-}	.logo {
-			display: block;
-			background: url(../images/dormmates-d.png);
-			width: 200px;
-		}
+}
 
+
+.team {
+	img {
+		width: 140px;
+		max-width: 100%;
+	}
+}
 .info {
+	margin: 10% auto;
 	.glyphicon {
 		display: block;
 		text-align: center;
 		margin: 20px auto;
 		font-size: 3.5em;
 	}
+}
 
-	h3 {
-		text-align: center;
+@media (max-width: $screen-sm-min) {
+	.call {
+		.btn {
+			font-size: 2em;
+		}
+
+		h1 {
+			font-size: 6em;
+		}
+	}
+}
+
+@media (max-width: $screen-xs-min) {
+	.call { 
+		.creators {
+			margin-top: 50px;
+		}
+		h1 {
+			font-size: 4em;
+		}
 	}
 }
