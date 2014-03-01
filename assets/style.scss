@@ -46,9 +46,10 @@ html, body {
 
 	.creators {
 		position: absolute;
-		bottom: 0;
+		bottom: 10px;
 		width: 100%;
 		text-align: center;
+		color: #777777;
 	}
 
 	h1 {
@@ -79,7 +80,14 @@ html, body {
 		margin: 20px auto;
 		font-size: 3.5em;
 	}
+
+	h3 {
+		padding-top: 200px;
+	}
 }
+
+#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; max-width: 400px; margin: 0 auto; text-align: center; }
+
 
 @media (max-width: $screen-sm-min) {
 	.call {
@@ -91,6 +99,8 @@ html, body {
 			font-size: 6em;
 		}
 	}
+
+	.info h3 {padding: 0;}
 }
 
 @media (max-width: $screen-xs-min) {

@@ -5016,9 +5016,10 @@ html, body {
       max-width: 150px; }
   .call .creators {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     width: 100%;
-    text-align: center; }
+    text-align: center;
+    color: #777777; }
   .call h1 {
     font-size: 8em;
     font-weight: lighter;
@@ -5039,12 +5040,24 @@ html, body {
     text-align: center;
     margin: 20px auto;
     font-size: 3.5em; }
+  .info h3 {
+    padding-top: 200px; }
+
+#mc_embed_signup {
+  clear: left;
+  font: 14px Helvetica,Arial,sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center; }
 
 @media (max-width: 768px) {
   .call .btn {
     font-size: 2em; }
   .call h1 {
-    font-size: 6em; } }
+    font-size: 6em; }
+
+  .info h3 {
+    padding: 0; } }
 @media (max-width: 480px) {
   .call .creators {
     margin-top: 50px; }
