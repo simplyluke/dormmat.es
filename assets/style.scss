@@ -1,0 +1,74 @@
+@import "bootstrap";
+
+$main-blue: #0CA5B0;
+$coffee: #4E3F30;
+$off-white: #F8F4E4;
+
+html, body {height: 100%; max-width: 100%; overflow-x: hidden;}
+
+.call {
+	text-align: center;
+	font-size: 1em;
+	background: url(../images/chairs.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	position: relative;
+
+	h1 {
+		font-size: 8em;
+		font-weight: lighter;
+		color: $main-blue;
+	}
+
+
+
+	.love {
+		font-size: 2.6em;
+	}
+
+	.btn {
+		margin-top: 5%;
+		font-size: 3em;
+	}
+
+	.glyphicon {
+		margin-right: 10px;
+	}
+
+	.content-call {
+		margin-top: 5%;
+
+		img {
+			max-width: 150px;
+		}
+	}
+
+	.creators {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+	}
+
+
+}	.logo {
+			display: block;
+			background: url(../images/dormmates-d.png);
+			width: 200px;
+		}
+
+.info {
+	.glyphicon {
+		display: block;
+		text-align: center;
+		margin: 20px auto;
+		font-size: 3.5em;
+	}
+
+	h3 {
+		text-align: center;
+	}
+}
